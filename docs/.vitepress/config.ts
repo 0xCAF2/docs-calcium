@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,33 +7,26 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Core Concept', link: '/core/concept' }
+      { text: "Home", link: "/" },
+      { text: "Core Concept", link: "/core/concept" },
     ],
+    outline: [2, 3],
 
     sidebar: [
       {
-        text: 'Core',
-        items: [
-          { text: 'Concept', link: '/core/concept' },
-        ]
+        text: "Core",
+        items: [{ text: "Concept", link: "/core/concept" }],
       },
       {
-        text: 'Python (calciumpy)',
-        items: [
-          { text: 'Getting Started', link: '/py/getting-started' },
-        ]
+        text: "Python (calciumpy)",
+        items: [{ text: "Getting Started", link: "/py/getting-started" }],
       },
       {
-        text: 'TypeScript (calcium-js)',
-        items: [
-          { text: 'Getting Started', link: '/js/getting-started' },
-        ]
-      }
+        text: "TypeScript (calcium-js)",
+        items: [{ text: "Getting Started", link: "/js/getting-started" }],
+      },
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/0xCAF2' }
-    ]
-  }
+    socialLinks: [{ icon: "github", link: "https://github.com/0xCAF2" }],
+  },
 })

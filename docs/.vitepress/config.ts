@@ -4,8 +4,10 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   title: "Calcium Language",
   description: "An interpreter to run JSON",
+  base: "/docs/calcium/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    externalLinkIcon: true,
     nav: [
       { text: "Home", link: "/" },
       { text: "Core Concept", link: "/core/concept" },

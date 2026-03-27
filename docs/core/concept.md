@@ -59,6 +59,8 @@ Therefore, in runtime, the state of the program can be represented as 2D point
 of (x, y), where x is the indentation level, and y is the line number.
 We call this point "address".
 
+![Address](./address.png){width=400}
+
 ## Expressions
 
 Calcium supports expressions, which are also represented as an array.
@@ -90,5 +92,6 @@ the general idea of control flow is the same across different runtimes.
 
 Calcium's `if` command is designed to be executable without `end if` command.
 It uses additional commands `ifs`, which serves as a container for `if`,
-`elif` (`else if`) and `else` commands. The `ifs` command is used to group
-multiple conditional branches together.
+`elif` and `else` commands. The `ifs` command is used to group
+multiple conditional branches together. The details of how `ifs` works is
+walked through [here](https://docs.google.com/presentation/d/1CL9fGvPyd2lvSdm-yqOq8Hq_rQYnedq7YeBEDnFWG0c/edit?usp=sharing).

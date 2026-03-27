@@ -14,7 +14,7 @@ hero:
       text: Python Runtime
       link: /py/getting-started
     - theme: alt
-      text: TypeScript Runtime
+      text: JavaScript Runtime
       link: /js/getting-started
 
 features:

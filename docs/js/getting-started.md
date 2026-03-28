@@ -42,7 +42,7 @@ says "Hello, World." as output.
 The `convert` function can convert JavaScript code into Calcium commands.
 
 ```js
-import { convert } from "calcium-js"
+import { convert } from "calcium-js/tool"
 
 const commands = convert(`
   console.log("Hello, World.")

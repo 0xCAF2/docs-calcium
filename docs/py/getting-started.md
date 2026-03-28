@@ -1,4 +1,5 @@
 ---
+next: false
 ---
 
 # Getting Started (Python Runtime)
@@ -59,7 +60,7 @@ with open("fib.py") as f:
     runtime.run()
 ```
 
-will print the Fibonacci number of 10.
+will print the Fibonacci number of 10, which is 55.
 
 ## Supported Commands
 

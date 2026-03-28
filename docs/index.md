@@ -18,10 +18,10 @@ hero:
       link: /js/getting-started
 
 features:
-  - title: Structure executable code programmatically
-    details: Calcium's input is represented as JSON, allowing you to manipulate and execute code by modifying the JSON.
-  - title: Any string can be a name.
-    details: For example, you can have a variable named "Hello World" or a function named "123". This allows for more expressive and flexible code especially in learning environments.
-  - title: Functions and modules are supported.
-    details: You can define and call functions, and organize your code into modules for better structure and reusability.
+  - title: Structure code programmatically
+    details: Calcium's input is represented as JSON, allowing you to manipulate and execute code easily.
+  - title: Any string can be a name
+    details: For example, a variable named "the number of apples" is valid. This is useful especially in learning environments, where you can use natural language to name your variables.
+  - title: Functions are supported
+    details: You can define and call simple functions, just like in Python or JavaScript. Those are also represented as JSON!
 ---

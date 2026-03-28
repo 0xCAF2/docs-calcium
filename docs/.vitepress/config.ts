@@ -24,7 +24,7 @@ export default defineConfig({
         items: [{ text: "Getting Started", link: "/py/getting-started" }],
       },
       {
-        text: "TypeScript (calcium-js)",
+        text: "JavaScript (calcium-js)",
         items: [{ text: "Getting Started", link: "/js/getting-started" }],
       },
     ],

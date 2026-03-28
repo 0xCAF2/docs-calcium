@@ -1,4 +1,5 @@
 ---
+next: false
 ---
 
 # Core Concept

@@ -67,4 +67,8 @@ converted correctly.
 
 ## Applications
 
-Coming soon...
+[This editor](https://0xcaf2.github.io/calcium-js/)(PoC) is built with calcium-js and [Preact](https://preactjs.com/).
+Frontend is built on [Blockly](https://developers.google.com/blockly).
+calcium-js generates code from the blocks mixed with HTML and CSS,
+and runs it in a browser. It aims to be an educational tool for
+learning Web development and programming concepts.

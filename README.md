@@ -1,3 +1,3 @@
 # docs-calcium
 
-[Documentation for Calcium language](https://0xcaf2.dev/docs/calcium/)
+[Documentation for the Calcium language](https://calcium.0xcaf2.dev/)

@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress"
 export default defineConfig({
   title: "Calcium Language",
   description: "An interpreter to run JSON",
-  base: "/docs/calcium/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     externalLinkIcon: true,
